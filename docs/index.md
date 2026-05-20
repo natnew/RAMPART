@@ -6,7 +6,9 @@ description: RAMPART is a pytest-native safety testing framework for agentic AI 
 
 # RAMPART Documentation
 
-**RAMPART** is a pytest-native safety testing framework for agentic AI applications. You write tests that attack or probe your agent, and RAMPART orchestrates the interaction, evaluates the outcome, and reports the results.
+**RAMPART**: Risk Assessment & Measurement Platform for Agentic Red Teaming.
+
+RAMPART is a pytest-native safety testing framework for agentic AI applications. You write tests that attack or probe your agent, and RAMPART orchestrates the interaction, evaluates the outcome, and reports the results.
 
 ```python
 result = await Attacks.xpia(
@@ -25,10 +27,12 @@ assert result, result.summary
 | If you want to… | Start here |
 |---|---|
 | Install RAMPART and run your first test | [Getting Started](getting-started/index.md) |
+| Explore runnable, end-to-end demos | [RAMPART Examples](https://github.com/microsoft/rampart-examples) |
 | Understand how RAMPART works | [Concepts](concepts/overview.md) |
 | Write an XPIA attack test | [XPIA Attack](attacks/xpia.md) |
 | Write a behavioral probe | [Behavioral Probe](probes/behavioral.md) |
 | Learn testing patterns and best practices | [Usage](usage/index.md) |
+| Contribute back to the project | [Contributing](contributing/index.md) |
 | Look up a class or function | [API Reference](api/index.md) |
 | Find a term definition | [Glossary](glossary.md) |
 
